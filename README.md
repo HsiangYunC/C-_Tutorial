@@ -22,7 +22,7 @@ practice with Tim Corey.
 <details><skip></details>
 
 -----
-### 4. [Top 10 Hidden Gems in Visual Studio - Speed Up Development Without Increasing Your Costs](https://youtu.be/xWcQhF-1hxA?list=PLLWMQd6PeGY2GVsQZ-u3DPXqwwKW8MkiP)
+### 4. [Top 10 Hidden Gems in Visual Studio - Speed Up Development Without Increasing Your Costs](https://youtu.be/xWcQhF-1hxA?list=PLLWMQd6PeGY2GVsQZ-u3DPXqwwKW8MkiP)  
 <details>  
   <summary>(notes)</summary>
   
@@ -66,3 +66,7 @@ practice with Tim Corey.
      - Shift + Alt + keyTLRB.  
      - Alt + mouse move.  
 </details>  
+  
+-----
+### 5. [15 Visual Studio Editor Tips including Intellicode and EditorConfig](https://youtu.be/qv6ZflueASY?list=PLLWMQd6PeGY2GVsQZ-u3DPXqwwKW8MkiP)  
+<details><skip></details>
