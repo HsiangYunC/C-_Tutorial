@@ -4,7 +4,7 @@ practice with Tim Corey.
 ## Getting Started with C#  
 ### 1. [An Introduction To The C# Learning Cycle](https://youtu.be/h7aIzCkmbl8?list=PLLWMQd6PeGY2GVsQZ-u3DPXqwwKW8MkiP)
 <details>  
-  <summary>(notes)</summary>
+  <summary>(more)</summary>
   
 #### - 4 steps cycle  
   1. Watch Toturial or read about something.  
@@ -24,7 +24,7 @@ practice with Tim Corey.
 -----
 ### 4. [Top 10 Hidden Gems in Visual Studio - Speed Up Development Without Increasing Your Costs](https://youtu.be/xWcQhF-1hxA?list=PLLWMQd6PeGY2GVsQZ-u3DPXqwwKW8MkiP)  
 <details>  
-  <summary>(notes)</summary>
+  <summary>(more)</summary>
   
   #### - 10 Tips   
   1. Quickly get to your file on disk. 
@@ -70,7 +70,49 @@ practice with Tim Corey.
 -----
 ### 5. [15 Visual Studio Editor Tips including Intellicode and EditorConfig](https://youtu.be/qv6ZflueASY?list=PLLWMQd6PeGY2GVsQZ-u3DPXqwwKW8MkiP)  
 <details>
-  <summary>(notes)</summary>
+  <summary>(more)</summary>
   
   #### - 15 Tips 
+  1. IntelliCode  
+    - Extensions -> Manager Extensions -> Installed -> Visual Studio IntelliCode  
+  2. Personalized Intellicode
+    - Tools -> Options -> IntelliCode -> (setting IntelliCode)
+    - View -> Other Windows -> IntelliCode Model Management
+  3. Code Styles
+    - Tools -> Options -> Text Editor -> C# -> Code Style
+      - Naming
+      - Formatting  
+  4. Editor Config  
+    - Tools -> Options -> Text Editor -> C# -> Code Style -> General -> Generate .editorconfig file from settings  
+    - Project Solution -> Add -> New EditorConfig (IntelliCode)  
+    - Tools -> Options -> IntelliCode -> General -> EditorConfig inference -> Enable  
+  5. Solution Performance : helps you give into visual studio faster  
+    - Tools -> Options -> Projects and Solutions  
+  6. Code Cleanup  
+    - Ctrl + K , E : Run Code Cleanup  
+  7. Project/Solution-wide Code Cleanup  
+    - Solution Explorer -> (mouse right click) -> Analyze and Code Cleanup -> Run Cleanup  
+  8. Paste as JSON  
+    - Edit -> Paste Special -> Paste JSON As Classes  
+  9. Quick Actions and Refactoring  
+    - Invert if  
+    - Use Pattern matching  
+  10. Discard Character  
+      ```cs
+      (string fn, string ln) = GetNames();
+      var (fn, _) = GetNames(); // don't care about lastname
+      public static (string firstName, string lastName) GetNames()
+      {
+         return ("Tim", "Corey");
+      }
+      ```  
+  11. XAML Hot Reload  
+    - UI change and reload immediately  
+  12. XAML Pop-out Option (bonus)  
+  13. Pin Properties in List
+    - for debug easier  
+  14. Clipboard Ring
+    - Ctrl + Shift + V : paste list
+  15. to be continue...
+  
 </details>
