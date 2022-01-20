@@ -69,4 +69,8 @@ practice with Tim Corey.
   
 -----
 ### 5. [15 Visual Studio Editor Tips including Intellicode and EditorConfig](https://youtu.be/qv6ZflueASY?list=PLLWMQd6PeGY2GVsQZ-u3DPXqwwKW8MkiP)  
-<details><skip></details>
+<details>
+  <summary>(notes)</summary>
+  
+  #### - 15 Tips 
+</details>
