@@ -108,11 +108,85 @@ practice with Tim Corey.
       ```  
   11. XAML Hot Reload  
     - UI change and reload immediately  
-  12. XAML Pop-out Option (bonus)  
-  13. Pin Properties in List
+    - XAML Pop-out Option (bonus)  
+  12. Pin Properties in List
     - for debug easier  
-  14. Clipboard Ring
-    - Ctrl + Shift + V : paste list
-  15. to be continue...
+  13. Clipboard Ring  
+    - Ctrl + Shift + V : paste list  
+    - Windows + V : Windows Clipboard Ring (bonus)  
+  14. Toolbox Code Storage  
+    - Storage the code you want to remember. rename  
+    - drag code into toolbox  
+  15. Universal Search  
+    - Ctrl + Q  
+      - quick way to create new file (enter : add class)  
+      - quickly setting (enter : themes / intellicode)  
+    - Vertical document tab (bonus)  
+      - Options -> Environment -> Preview Features :  
+        :heavy_check_mark: Vertical document tab layout  
+      - Right click on tabs -> Set Tab Layout -> Left / Top / Right  
+</details>
+
+-----
+### 6. [How to Get Help Online as a Software Developer]    
+<details><skip></details>
+  
+-----
+### 7. [C# Debugging: Breakpoints]  
+<details><skip></details>
+  
+-----
+### 8. [C# Debugging: Breakpoints]  
+<details><skip></details>
+    
+-----
+### 12. [Working With The File System in C# - Managing Folders and Files](https://youtu.be/9mUuJIKq40M?list=PLLWMQd6PeGY2GVsQZ-u3DPXqwwKW8MkiP)  
+<details>
+  <summary>(more)</summary>
+
+  #### - File System Demo
+  1. reading all directories in the path specified  
+      ```cs
+      // using System.IO;
+  
+      string rootPath = @"E:\Temp\Demos\FileSystem";
+  
+      // "*" : filter
+      // SearchOption : TopDirectoryOnly / AllDirectories
+      string[] dirs = Directory.GetDirectories(rootPath, "*", SearchOption.AllDirectories);  
+  
+      foreach (string dir in dirs)
+      {
+          Console.WriteLine(dir);
+      }
+  
+      var files = Directory.GetFiles(rootPath, "*.*", SearchOption.TopDirectoryOnly);
+  
+      foreach (string file in files)
+      {
+          Console.WriteLine(file);
+      } 
+     ```
+  2. reading all files in the path specified (directories included)  
+      ```cs
+      // using System.IO;
+  
+      string rootPath = @"E:\Temp\Demos\FileSystem";
+  
+      // "*.*" : filter
+      // SearchOption : TopDirectoryOnly / AllDirectories
+  
+      var files = Directory.GetFiles(rootPath, "*.*", SearchOption.TopDirectoryOnly);
+  
+      foreach (string file in files)
+      {
+          Console.WriteLine(file);
+          Console.WriteLine(Path.GetFileName(file)); // getting file path only
+      } 
+     ```  
+  3. reading all files (directories excluded), omitted file extensions, getting file path only
+  
+  9:43
+  
   
 </details>
